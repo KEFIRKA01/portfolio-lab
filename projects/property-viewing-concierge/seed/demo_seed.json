@@ -1,0 +1,186 @@
+{
+  "actors": [
+    {
+      "actor_id": "property-viewing-concierge-client-1",
+      "name": "Client Demo 1",
+      "role": "client",
+      "segment": "rent",
+      "trust": 50,
+      "flags": [
+        "плавающий бюджет"
+      ]
+    },
+    {
+      "actor_id": "property-viewing-concierge-agent-2",
+      "name": "Agent Demo 2",
+      "role": "agent",
+      "segment": "sale",
+      "trust": 60,
+      "flags": [
+        "несколько участников сделки"
+      ]
+    },
+    {
+      "actor_id": "property-viewing-concierge-broker-3",
+      "name": "Broker Demo 3",
+      "role": "broker",
+      "segment": "commercial",
+      "trust": 70,
+      "flags": [
+        "горящий просмотр"
+      ]
+    },
+    {
+      "actor_id": "property-viewing-concierge-owner-4",
+      "name": "Owner Demo 4",
+      "role": "owner",
+      "segment": "newbuilding",
+      "trust": 80,
+      "flags": [
+        "документы не готовы"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "item_id": "property-viewing-concierge-item-1",
+      "customer_name": "Demo User 1",
+      "title": "Подбор аренды / Консьерж просмотров недвижимости",
+      "category": "rent",
+      "status": "new",
+      "priority": 43,
+      "budget": 15500,
+      "deadline_hours": 7,
+      "tags": [
+        "rent",
+        "home",
+        "квалификация бюджета"
+      ],
+      "signals": [
+        "плавающий бюджет"
+      ],
+      "notes": [
+        "Сценарий: Подбор аренды",
+        "Фокус: недвижимость, квалификация лида, подборка объектов, просмотр",
+        "Оператор: агент по недвижимости"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "конверсия в просмотр"
+      }
+    },
+    {
+      "item_id": "property-viewing-concierge-item-2",
+      "customer_name": "Demo User 2",
+      "title": "Покупка квартиры / Консьерж просмотров недвижимости",
+      "category": "sale",
+      "status": "in_progress",
+      "priority": 51,
+      "budget": 19000,
+      "deadline_hours": 10,
+      "tags": [
+        "sale",
+        "home",
+        "подборка объектов"
+      ],
+      "signals": [
+        "несколько участников сделки"
+      ],
+      "notes": [
+        "Сценарий: Покупка квартиры",
+        "Фокус: недвижимость, квалификация лида, подборка объектов, просмотр",
+        "Оператор: агент по недвижимости"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "конверсия в просмотр"
+      }
+    },
+    {
+      "item_id": "property-viewing-concierge-item-3",
+      "customer_name": "Demo User 3",
+      "title": "Коммерческое помещение / Консьерж просмотров недвижимости",
+      "category": "commercial",
+      "status": "in_progress",
+      "priority": 59,
+      "budget": 22500,
+      "deadline_hours": 13,
+      "tags": [
+        "commercial",
+        "home",
+        "слоты просмотров"
+      ],
+      "signals": [
+        "горящий просмотр"
+      ],
+      "notes": [
+        "Сценарий: Коммерческое помещение",
+        "Фокус: недвижимость, квалификация лида, подборка объектов, просмотр",
+        "Оператор: агент по недвижимости"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "конверсия в просмотр"
+      }
+    },
+    {
+      "item_id": "property-viewing-concierge-item-4",
+      "customer_name": "Demo User 4",
+      "title": "Ипотечный пречек / Консьерж просмотров недвижимости",
+      "category": "newbuilding",
+      "status": "in_progress",
+      "priority": 67,
+      "budget": 26000,
+      "deadline_hours": 16,
+      "tags": [
+        "newbuilding",
+        "home",
+        "маршрут агента"
+      ],
+      "signals": [
+        "документы не готовы"
+      ],
+      "notes": [
+        "Сценарий: Ипотечный пречек",
+        "Фокус: недвижимость, квалификация лида, подборка объектов, просмотр",
+        "Оператор: агент по недвижимости"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "конверсия в просмотр"
+      }
+    },
+    {
+      "item_id": "property-viewing-concierge-item-5",
+      "customer_name": "Demo User 5",
+      "title": "Маршрут на несколько просмотров / Консьерж просмотров недвижимости",
+      "category": "mortgage",
+      "status": "in_progress",
+      "priority": 75,
+      "budget": 29500,
+      "deadline_hours": 19,
+      "tags": [
+        "mortgage",
+        "home",
+        "ипотечный сценарий"
+      ],
+      "signals": [
+        "высокая конкуренция"
+      ],
+      "notes": [
+        "Сценарий: Маршрут на несколько просмотров",
+        "Фокус: недвижимость, квалификация лида, подборка объектов, просмотр",
+        "Оператор: агент по недвижимости"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "конверсия в просмотр"
+      }
+    }
+  ]
+}

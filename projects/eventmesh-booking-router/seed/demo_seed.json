@@ -1,0 +1,7 @@
+{
+  "providers": [
+    {"provider_id": "alpha", "capabilities": ["massage", "consulting"], "regions": ["moscow"], "channels": ["site", "telegram"], "priority": 90, "after_hours": false},
+    {"provider_id": "bravo", "capabilities": ["massage"], "regions": ["moscow", "spb"], "channels": ["partner", "site"], "priority": 70, "after_hours": false},
+    {"provider_id": "night", "capabilities": ["massage"], "regions": ["moscow"], "channels": ["telegram"], "priority": 95, "after_hours": true}
+  ]
+}

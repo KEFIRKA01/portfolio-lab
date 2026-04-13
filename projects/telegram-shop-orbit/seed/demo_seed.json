@@ -1,0 +1,186 @@
+{
+  "actors": [
+    {
+      "actor_id": "telegram-shop-orbit-customer-1",
+      "name": "Customer Demo 1",
+      "role": "customer",
+      "segment": "electronics",
+      "trust": 50,
+      "flags": [
+        "высокий чек"
+      ]
+    },
+    {
+      "actor_id": "telegram-shop-orbit-operator-2",
+      "name": "Operator Demo 2",
+      "role": "operator",
+      "segment": "fashion",
+      "trust": 60,
+      "flags": [
+        "новый покупатель"
+      ]
+    },
+    {
+      "actor_id": "telegram-shop-orbit-warehouse-3",
+      "name": "Warehouse Demo 3",
+      "role": "warehouse",
+      "segment": "home",
+      "trust": 70,
+      "flags": [
+        "срочная доставка"
+      ]
+    },
+    {
+      "actor_id": "telegram-shop-orbit-owner-4",
+      "name": "Owner Demo 4",
+      "role": "owner",
+      "segment": "gifts",
+      "trust": 80,
+      "flags": [
+        "мало остатка"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "item_id": "telegram-shop-orbit-item-1",
+      "customer_name": "Demo User 1",
+      "title": "Быстрый заказ / Магазин в Telegram Orbit",
+      "category": "electronics",
+      "status": "new",
+      "priority": 43,
+      "budget": 15500,
+      "deadline_hours": 7,
+      "tags": [
+        "electronics",
+        "shop",
+        "каталог с подборками"
+      ],
+      "signals": [
+        "высокий чек"
+      ],
+      "notes": [
+        "Сценарий: Быстрый заказ",
+        "Фокус: магазин, каталог, корзина, доставка, допродажи",
+        "Оператор: оператор магазина"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "средний чек и повторные заказы"
+      }
+    },
+    {
+      "item_id": "telegram-shop-orbit-item-2",
+      "customer_name": "Demo User 2",
+      "title": "Повторная покупка / Магазин в Telegram Orbit",
+      "category": "fashion",
+      "status": "in_progress",
+      "priority": 51,
+      "budget": 19000,
+      "deadline_hours": 10,
+      "tags": [
+        "fashion",
+        "shop",
+        "корзина и сегментация клиента"
+      ],
+      "signals": [
+        "новый покупатель"
+      ],
+      "notes": [
+        "Сценарий: Повторная покупка",
+        "Фокус: магазин, каталог, корзина, доставка, допродажи",
+        "Оператор: оператор магазина"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "средний чек и повторные заказы"
+      }
+    },
+    {
+      "item_id": "telegram-shop-orbit-item-3",
+      "customer_name": "Demo User 3",
+      "title": "Подарочный набор / Магазин в Telegram Orbit",
+      "category": "home",
+      "status": "in_progress",
+      "priority": 59,
+      "budget": 22500,
+      "deadline_hours": 13,
+      "tags": [
+        "home",
+        "shop",
+        "управление доставкой"
+      ],
+      "signals": [
+        "срочная доставка"
+      ],
+      "notes": [
+        "Сценарий: Подарочный набор",
+        "Фокус: магазин, каталог, корзина, доставка, допродажи",
+        "Оператор: оператор магазина"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "средний чек и повторные заказы"
+      }
+    },
+    {
+      "item_id": "telegram-shop-orbit-item-4",
+      "customer_name": "Demo User 4",
+      "title": "Дополнительная продажа / Магазин в Telegram Orbit",
+      "category": "gifts",
+      "status": "in_progress",
+      "priority": 67,
+      "budget": 26000,
+      "deadline_hours": 16,
+      "tags": [
+        "gifts",
+        "shop",
+        "операторская очередь"
+      ],
+      "signals": [
+        "мало остатка"
+      ],
+      "notes": [
+        "Сценарий: Дополнительная продажа",
+        "Фокус: магазин, каталог, корзина, доставка, допродажи",
+        "Оператор: оператор магазина"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "средний чек и повторные заказы"
+      }
+    },
+    {
+      "item_id": "telegram-shop-orbit-item-5",
+      "customer_name": "Demo User 5",
+      "title": "Доставка сегодня / Магазин в Telegram Orbit",
+      "category": "subscription",
+      "status": "in_progress",
+      "priority": 75,
+      "budget": 29500,
+      "deadline_hours": 19,
+      "tags": [
+        "subscription",
+        "shop",
+        "сигналы по брошенным корзинам"
+      ],
+      "signals": [
+        "жалоба на прошлый заказ"
+      ],
+      "notes": [
+        "Сценарий: Доставка сегодня",
+        "Фокус: магазин, каталог, корзина, доставка, допродажи",
+        "Оператор: оператор магазина"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "средний чек и повторные заказы"
+      }
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "actors": [
+    {
+      "actor_id": "telegram-login-guardian-user-1",
+      "name": "User Demo 1",
+      "role": "user",
+      "segment": "admin-panel",
+      "trust": 50,
+      "flags": [
+        "новая геолокация"
+      ]
+    },
+    {
+      "actor_id": "telegram-login-guardian-security-2",
+      "name": "Security Demo 2",
+      "role": "security",
+      "segment": "partner-portal",
+      "trust": 60,
+      "flags": [
+        "ночной вход"
+      ]
+    },
+    {
+      "actor_id": "telegram-login-guardian-owner-3",
+      "name": "Owner Demo 3",
+      "role": "owner",
+      "segment": "vpn",
+      "trust": 70,
+      "flags": [
+        "финансовый раздел"
+      ]
+    },
+    {
+      "actor_id": "telegram-login-guardian-admin-4",
+      "name": "Admin Demo 4",
+      "role": "admin",
+      "segment": "crm",
+      "trust": 80,
+      "flags": [
+        "анонимайзер"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "item_id": "telegram-login-guardian-item-1",
+      "customer_name": "Demo User 1",
+      "title": "Новый девайс / Защитник входов в Telegram",
+      "category": "admin-panel",
+      "status": "new",
+      "priority": 43,
+      "budget": 15500,
+      "deadline_hours": 7,
+      "tags": [
+        "admin-panel",
+        "auth",
+        "подтверждение входа"
+      ],
+      "signals": [
+        "новая геолокация"
+      ],
+      "notes": [
+        "Сценарий: Новый девайс",
+        "Фокус: подтверждение входа, доверие к устройству, усиленная проверка",
+        "Оператор: аналитик безопасности"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "доля безопасно подтвержденных входов"
+      }
+    },
+    {
+      "item_id": "telegram-login-guardian-item-2",
+      "customer_name": "Demo User 2",
+      "title": "Подозрительный IP / Защитник входов в Telegram",
+      "category": "partner-portal",
+      "status": "in_progress",
+      "priority": 51,
+      "budget": 19000,
+      "deadline_hours": 10,
+      "tags": [
+        "partner-portal",
+        "auth",
+        "риск-скоринг устройства"
+      ],
+      "signals": [
+        "ночной вход"
+      ],
+      "notes": [
+        "Сценарий: Подозрительный IP",
+        "Фокус: подтверждение входа, доверие к устройству, усиленная проверка",
+        "Оператор: аналитик безопасности"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "доля безопасно подтвержденных входов"
+      }
+    },
+    {
+      "item_id": "telegram-login-guardian-item-3",
+      "customer_name": "Demo User 3",
+      "title": "Повышенный риск / Защитник входов в Telegram",
+      "category": "vpn",
+      "status": "in_progress",
+      "priority": 59,
+      "budget": 22500,
+      "deadline_hours": 13,
+      "tags": [
+        "vpn",
+        "auth",
+        "усиленная проверка"
+      ],
+      "signals": [
+        "финансовый раздел"
+      ],
+      "notes": [
+        "Сценарий: Повышенный риск",
+        "Фокус: подтверждение входа, доверие к устройству, усиленная проверка",
+        "Оператор: аналитик безопасности"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "доля безопасно подтвержденных входов"
+      }
+    },
+    {
+      "item_id": "telegram-login-guardian-item-4",
+      "customer_name": "Demo User 4",
+      "title": "Доверенный вход / Защитник входов в Telegram",
+      "category": "crm",
+      "status": "in_progress",
+      "priority": 67,
+      "budget": 26000,
+      "deadline_hours": 16,
+      "tags": [
+        "crm",
+        "auth",
+        "журнал сессий"
+      ],
+      "signals": [
+        "анонимайзер"
+      ],
+      "notes": [
+        "Сценарий: Доверенный вход",
+        "Фокус: подтверждение входа, доверие к устройству, усиленная проверка",
+        "Оператор: аналитик безопасности"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "доля безопасно подтвержденных входов"
+      }
+    },
+    {
+      "item_id": "telegram-login-guardian-item-5",
+      "customer_name": "Demo User 5",
+      "title": "Ревизия активных сессий / Защитник входов в Telegram",
+      "category": "finance",
+      "status": "in_progress",
+      "priority": 75,
+      "budget": 29500,
+      "deadline_hours": 19,
+      "tags": [
+        "finance",
+        "auth",
+        "отзыв активной сессии"
+      ],
+      "signals": [
+        "много неудачных попыток"
+      ],
+      "notes": [
+        "Сценарий: Ревизия активных сессий",
+        "Фокус: подтверждение входа, доверие к устройству, усиленная проверка",
+        "Оператор: аналитик безопасности"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "доля безопасно подтвержденных входов"
+      }
+    }
+  ]
+}

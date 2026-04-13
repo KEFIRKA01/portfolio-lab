@@ -1,0 +1,186 @@
+{
+  "actors": [
+    {
+      "actor_id": "invoice-approval-bot-requester-1",
+      "name": "Requester Demo 1",
+      "role": "requester",
+      "segment": "opex",
+      "trust": 50,
+      "flags": [
+        "сверх лимита"
+      ]
+    },
+    {
+      "actor_id": "invoice-approval-bot-controller-2",
+      "name": "Controller Demo 2",
+      "role": "controller",
+      "segment": "marketing",
+      "trust": 60,
+      "flags": [
+        "нет бюджета"
+      ]
+    },
+    {
+      "actor_id": "invoice-approval-bot-approver-3",
+      "name": "Approver Demo 3",
+      "role": "approver",
+      "segment": "software",
+      "trust": 70,
+      "flags": [
+        "повторный поставщик"
+      ]
+    },
+    {
+      "actor_id": "invoice-approval-bot-owner-4",
+      "name": "Owner Demo 4",
+      "role": "owner",
+      "segment": "travel",
+      "trust": 80,
+      "flags": [
+        "срочная оплата"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "item_id": "invoice-approval-bot-item-1",
+      "customer_name": "Demo User 1",
+      "title": "Новый счет / Бот согласования счетов",
+      "category": "opex",
+      "status": "new",
+      "priority": 43,
+      "budget": 15500,
+      "deadline_hours": 7,
+      "tags": [
+        "opex",
+        "fin",
+        "маршруты согласования"
+      ],
+      "signals": [
+        "сверх лимита"
+      ],
+      "notes": [
+        "Сценарий: Новый счет",
+        "Фокус: согласование расходов, маршрут счета, бюджетные лимиты",
+        "Оператор: финансовый контролер"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "время согласования счета"
+      }
+    },
+    {
+      "item_id": "invoice-approval-bot-item-2",
+      "customer_name": "Demo User 2",
+      "title": "Внеплановый расход / Бот согласования счетов",
+      "category": "marketing",
+      "status": "in_progress",
+      "priority": 51,
+      "budget": 19000,
+      "deadline_hours": 10,
+      "tags": [
+        "marketing",
+        "fin",
+        "бюджетные лимиты"
+      ],
+      "signals": [
+        "нет бюджета"
+      ],
+      "notes": [
+        "Сценарий: Внеплановый расход",
+        "Фокус: согласование расходов, маршрут счета, бюджетные лимиты",
+        "Оператор: финансовый контролер"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "время согласования счета"
+      }
+    },
+    {
+      "item_id": "invoice-approval-bot-item-3",
+      "customer_name": "Demo User 3",
+      "title": "Перерасход бюджета / Бот согласования счетов",
+      "category": "software",
+      "status": "in_progress",
+      "priority": 59,
+      "budget": 22500,
+      "deadline_hours": 13,
+      "tags": [
+        "software",
+        "fin",
+        "исключения"
+      ],
+      "signals": [
+        "повторный поставщик"
+      ],
+      "notes": [
+        "Сценарий: Перерасход бюджета",
+        "Фокус: согласование расходов, маршрут счета, бюджетные лимиты",
+        "Оператор: финансовый контролер"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "время согласования счета"
+      }
+    },
+    {
+      "item_id": "invoice-approval-bot-item-4",
+      "customer_name": "Demo User 4",
+      "title": "Срочное согласование / Бот согласования счетов",
+      "category": "travel",
+      "status": "in_progress",
+      "priority": 67,
+      "budget": 26000,
+      "deadline_hours": 16,
+      "tags": [
+        "travel",
+        "fin",
+        "аудит следов"
+      ],
+      "signals": [
+        "срочная оплата"
+      ],
+      "notes": [
+        "Сценарий: Срочное согласование",
+        "Фокус: согласование расходов, маршрут счета, бюджетные лимиты",
+        "Оператор: финансовый контролер"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "время согласования счета"
+      }
+    },
+    {
+      "item_id": "invoice-approval-bot-item-5",
+      "customer_name": "Demo User 5",
+      "title": "Эскалация CFO / Бот согласования счетов",
+      "category": "urgent",
+      "status": "in_progress",
+      "priority": 75,
+      "budget": 29500,
+      "deadline_hours": 19,
+      "tags": [
+        "urgent",
+        "fin",
+        "финансовые метрики"
+      ],
+      "signals": [
+        "конфликт ролей"
+      ],
+      "notes": [
+        "Сценарий: Эскалация CFO",
+        "Фокус: согласование расходов, маршрут счета, бюджетные лимиты",
+        "Оператор: финансовый контролер"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "время согласования счета"
+      }
+    }
+  ]
+}

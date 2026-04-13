@@ -1,0 +1,6 @@
+{
+  "tasks": [
+    {"task_id": "dispatch-1", "title": "Срочный выезд на объект", "region": "moscow"},
+    {"task_id": "dispatch-2", "title": "Доставка оборудования", "region": "spb"}
+  ]
+}

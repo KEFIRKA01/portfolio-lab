@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quote Configurator Studio</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <p class="eyebrow">Demo project</p>
+        <h1>Соберите коммерческое предложение до первого созвона</h1>
+        <p class="lead">Конфигуратор модулей, оценки сложности и ориентировочной сметы для digital-проекта.</p>
+      </section>
+      <section class="card">
+        <h2>Тип проекта</h2>
+        <div class="chips" id="project-types">
+          <button type="button" data-type="cabinet">Личный кабинет</button>
+          <button type="button" data-type="integration">Интеграции</button>
+          <button type="button" data-type="ecommerce">E-commerce</button>
+        </div>
+      </section>
+      <section class="card">
+        <h2>Модули</h2>
+        <div class="modules">
+          <label><input type="checkbox" value="auth"> Авторизация и роли</label>
+          <label><input type="checkbox" value="crm"> CRM / webhook</label>
+          <label><input type="checkbox" value="telegram"> Telegram-уведомления</label>
+          <label><input type="checkbox" value="analytics"> Аналитика</label>
+          <label><input type="checkbox" value="payments"> Платежи</label>
+        </div>
+      </section>
+      <section class="card">
+        <h2>Сложность</h2>
+        <input id="complexity" type="range" min="1" max="5" step="1" value="2">
+        <p id="complexity-value">Сложность: 2 / 5</p>
+      </section>
+      <section class="card">
+        <h2>Сводка</h2>
+        <pre id="quote-summary" class="summary"></pre>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>

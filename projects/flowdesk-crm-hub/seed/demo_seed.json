@@ -1,0 +1,18 @@
+{
+  "leads": [
+    {
+      "lead_id": "lead-1001",
+      "name": "Алексей Петров",
+      "phone": "+7 (999) 123-45-67",
+      "source": "landing-main",
+      "budget": 120000
+    },
+    {
+      "lead_id": "lead-1002",
+      "name": "Марина Соколова",
+      "phone": "+7 (911) 555-66-77",
+      "source": "telegram-bot",
+      "budget": 85000
+    }
+  ]
+}

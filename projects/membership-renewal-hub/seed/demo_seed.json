@@ -1,0 +1,186 @@
+{
+  "actors": [
+    {
+      "actor_id": "membership-renewal-hub-member-1",
+      "name": "Member Demo 1",
+      "role": "member",
+      "segment": "renewal",
+      "trust": 50,
+      "flags": [
+        "неудачный платеж"
+      ]
+    },
+    {
+      "actor_id": "membership-renewal-hub-retention-2",
+      "name": "Retention Demo 2",
+      "role": "retention",
+      "segment": "downgrade",
+      "trust": 60,
+      "flags": [
+        "пауза"
+      ]
+    },
+    {
+      "actor_id": "membership-renewal-hub-billing-3",
+      "name": "Billing Demo 3",
+      "role": "billing",
+      "segment": "vip",
+      "trust": 70,
+      "flags": [
+        "низкая активность"
+      ]
+    },
+    {
+      "actor_id": "membership-renewal-hub-owner-4",
+      "name": "Owner Demo 4",
+      "role": "owner",
+      "segment": "failed-payment",
+      "trust": 80,
+      "flags": [
+        "скидка на удержание"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "item_id": "membership-renewal-hub-item-1",
+      "customer_name": "Demo User 1",
+      "title": "Продление / Центр продления подписок",
+      "category": "renewal",
+      "status": "new",
+      "priority": 43,
+      "budget": 15500,
+      "deadline_hours": 7,
+      "tags": [
+        "renewal",
+        "club",
+        "маршрут продления"
+      ],
+      "signals": [
+        "неудачный платеж"
+      ],
+      "notes": [
+        "Сценарий: Продление",
+        "Фокус: подписки, продления, мягкое дожатие оплаты, предложения лояльности",
+        "Оператор: менеджер лояльности"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "доля успешных продлений и снижение оттока"
+      }
+    },
+    {
+      "item_id": "membership-renewal-hub-item-2",
+      "customer_name": "Demo User 2",
+      "title": "Неудачный платеж / Центр продления подписок",
+      "category": "downgrade",
+      "status": "in_progress",
+      "priority": 51,
+      "budget": 19000,
+      "deadline_hours": 10,
+      "tags": [
+        "downgrade",
+        "club",
+        "работа с неоплаченным счётом"
+      ],
+      "signals": [
+        "пауза"
+      ],
+      "notes": [
+        "Сценарий: Неудачный платеж",
+        "Фокус: подписки, продления, мягкое дожатие оплаты, предложения лояльности",
+        "Оператор: менеджер лояльности"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "доля успешных продлений и снижение оттока"
+      }
+    },
+    {
+      "item_id": "membership-renewal-hub-item-3",
+      "customer_name": "Demo User 3",
+      "title": "Пауза подписки / Центр продления подписок",
+      "category": "vip",
+      "status": "in_progress",
+      "priority": 59,
+      "budget": 22500,
+      "deadline_hours": 13,
+      "tags": [
+        "vip",
+        "club",
+        "персональные предложения"
+      ],
+      "signals": [
+        "низкая активность"
+      ],
+      "notes": [
+        "Сценарий: Пауза подписки",
+        "Фокус: подписки, продления, мягкое дожатие оплаты, предложения лояльности",
+        "Оператор: менеджер лояльности"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "доля успешных продлений и снижение оттока"
+      }
+    },
+    {
+      "item_id": "membership-renewal-hub-item-4",
+      "customer_name": "Demo User 4",
+      "title": "VIP предложение / Центр продления подписок",
+      "category": "failed-payment",
+      "status": "in_progress",
+      "priority": 67,
+      "budget": 26000,
+      "deadline_hours": 16,
+      "tags": [
+        "failed-payment",
+        "club",
+        "статусы доступа"
+      ],
+      "signals": [
+        "скидка на удержание"
+      ],
+      "notes": [
+        "Сценарий: VIP предложение",
+        "Фокус: подписки, продления, мягкое дожатие оплаты, предложения лояльности",
+        "Оператор: менеджер лояльности"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "доля успешных продлений и снижение оттока"
+      }
+    },
+    {
+      "item_id": "membership-renewal-hub-item-5",
+      "customer_name": "Demo User 5",
+      "title": "Риск оттока / Центр продления подписок",
+      "category": "pause",
+      "status": "in_progress",
+      "priority": 75,
+      "budget": 29500,
+      "deadline_hours": 19,
+      "tags": [
+        "pause",
+        "club",
+        "сводка удержания"
+      ],
+      "signals": [
+        "высокая ценность клиента"
+      ],
+      "notes": [
+        "Сценарий: Риск оттока",
+        "Фокус: подписки, продления, мягкое дожатие оплаты, предложения лояльности",
+        "Оператор: менеджер лояльности"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "доля успешных продлений и снижение оттока"
+      }
+    }
+  ]
+}

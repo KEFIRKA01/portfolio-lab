@@ -1,0 +1,4 @@
+{
+  "project_types": ["cabinet", "integration", "ecommerce"],
+  "modules": ["auth", "crm", "telegram", "analytics", "payments"]
+}

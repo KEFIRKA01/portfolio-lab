@@ -1,0 +1,186 @@
+{
+  "actors": [
+    {
+      "actor_id": "partner-onboarding-bot-partner-1",
+      "name": "Partner Demo 1",
+      "role": "partner",
+      "segment": "marketplace",
+      "trust": 50,
+      "flags": [
+        "нет документов"
+      ]
+    },
+    {
+      "actor_id": "partner-onboarding-bot-manager-2",
+      "name": "Manager Demo 2",
+      "role": "manager",
+      "segment": "reseller",
+      "trust": 60,
+      "flags": [
+        "корпоративный договор"
+      ]
+    },
+    {
+      "actor_id": "partner-onboarding-bot-legal-3",
+      "name": "Legal Demo 3",
+      "role": "legal",
+      "segment": "affiliate",
+      "trust": 70,
+      "flags": [
+        "нет тестового доступа"
+      ]
+    },
+    {
+      "actor_id": "partner-onboarding-bot-owner-4",
+      "name": "Owner Demo 4",
+      "role": "owner",
+      "segment": "integration",
+      "trust": 80,
+      "flags": [
+        "долгая интеграция"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "item_id": "partner-onboarding-bot-item-1",
+      "customer_name": "Demo User 1",
+      "title": "Новый партнер / Бот онбординга партнёров",
+      "category": "marketplace",
+      "status": "new",
+      "priority": 43,
+      "budget": 15500,
+      "deadline_hours": 7,
+      "tags": [
+        "marketplace",
+        "b2b",
+        "онбординг стадий"
+      ],
+      "signals": [
+        "нет документов"
+      ],
+      "notes": [
+        "Сценарий: Новый партнер",
+        "Фокус: онбординг партнёров, документы, комплаенс, чеклист запуска",
+        "Оператор: партнерский менеджер"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "скорость вывода партнера в запуск"
+      }
+    },
+    {
+      "item_id": "partner-onboarding-bot-item-2",
+      "customer_name": "Demo User 2",
+      "title": "Документы не готовы / Бот онбординга партнёров",
+      "category": "reseller",
+      "status": "in_progress",
+      "priority": 51,
+      "budget": 19000,
+      "deadline_hours": 10,
+      "tags": [
+        "reseller",
+        "b2b",
+        "документы"
+      ],
+      "signals": [
+        "корпоративный договор"
+      ],
+      "notes": [
+        "Сценарий: Документы не готовы",
+        "Фокус: онбординг партнёров, документы, комплаенс, чеклист запуска",
+        "Оператор: партнерский менеджер"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "скорость вывода партнера в запуск"
+      }
+    },
+    {
+      "item_id": "partner-onboarding-bot-item-3",
+      "customer_name": "Demo User 3",
+      "title": "Интеграция заблокирована / Бот онбординга партнёров",
+      "category": "affiliate",
+      "status": "in_progress",
+      "priority": 59,
+      "budget": 22500,
+      "deadline_hours": 13,
+      "tags": [
+        "affiliate",
+        "b2b",
+        "готовность к запуску"
+      ],
+      "signals": [
+        "нет тестового доступа"
+      ],
+      "notes": [
+        "Сценарий: Интеграция заблокирована",
+        "Фокус: онбординг партнёров, документы, комплаенс, чеклист запуска",
+        "Оператор: партнерский менеджер"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "скорость вывода партнера в запуск"
+      }
+    },
+    {
+      "item_id": "partner-onboarding-bot-item-4",
+      "customer_name": "Demo User 4",
+      "title": "Чеклист запуска / Бот онбординга партнёров",
+      "category": "integration",
+      "status": "in_progress",
+      "priority": 67,
+      "budget": 26000,
+      "deadline_hours": 16,
+      "tags": [
+        "integration",
+        "b2b",
+        "комплаенс"
+      ],
+      "signals": [
+        "долгая интеграция"
+      ],
+      "notes": [
+        "Сценарий: Чеклист запуска",
+        "Фокус: онбординг партнёров, документы, комплаенс, чеклист запуска",
+        "Оператор: партнерский менеджер"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "скорость вывода партнера в запуск"
+      }
+    },
+    {
+      "item_id": "partner-onboarding-bot-item-5",
+      "customer_name": "Demo User 5",
+      "title": "Корпоративный запуск / Бот онбординга партнёров",
+      "category": "enterprise",
+      "status": "in_progress",
+      "priority": 75,
+      "budget": 29500,
+      "deadline_hours": 19,
+      "tags": [
+        "enterprise",
+        "b2b",
+        "статусы запуска"
+      ],
+      "signals": [
+        "высокий потенциал регулярной выручки"
+      ],
+      "notes": [
+        "Сценарий: Корпоративный запуск",
+        "Фокус: онбординг партнёров, документы, комплаенс, чеклист запуска",
+        "Оператор: партнерский менеджер"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "скорость вывода партнера в запуск"
+      }
+    }
+  ]
+}

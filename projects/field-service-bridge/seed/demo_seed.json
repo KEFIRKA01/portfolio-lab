@@ -1,0 +1,186 @@
+{
+  "actors": [
+    {
+      "actor_id": "field-service-bridge-customer-1",
+      "name": "Customer Demo 1",
+      "role": "customer",
+      "segment": "installation",
+      "trust": 50,
+      "flags": [
+        "нет запчасти"
+      ]
+    },
+    {
+      "actor_id": "field-service-bridge-coordinator-2",
+      "name": "Coordinator Demo 2",
+      "role": "coordinator",
+      "segment": "repair",
+      "trust": 60,
+      "flags": [
+        "повторный выезд"
+      ]
+    },
+    {
+      "actor_id": "field-service-bridge-technician-3",
+      "name": "Technician Demo 3",
+      "role": "technician",
+      "segment": "inspection",
+      "trust": 70,
+      "flags": [
+        "VIP клиент"
+      ]
+    },
+    {
+      "actor_id": "field-service-bridge-owner-4",
+      "name": "Owner Demo 4",
+      "role": "owner",
+      "segment": "vip",
+      "trust": 80,
+      "flags": [
+        "узкое окно"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "item_id": "field-service-bridge-item-1",
+      "customer_name": "Demo User 1",
+      "title": "Новая заявка / Мост выездного сервиса",
+      "category": "installation",
+      "status": "new",
+      "priority": 43,
+      "budget": 15500,
+      "deadline_hours": 7,
+      "tags": [
+        "installation",
+        "field",
+        "распределение инженеров"
+      ],
+      "signals": [
+        "нет запчасти"
+      ],
+      "notes": [
+        "Сценарий: Новая заявка",
+        "Фокус: выездной сервис, планирование инженеров, запчасти, SLA",
+        "Оператор: сервис-координатор"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "время закрытия выезда и доля визитов без повторного выезда"
+      }
+    },
+    {
+      "item_id": "field-service-bridge-item-2",
+      "customer_name": "Demo User 2",
+      "title": "Срочный ремонт / Мост выездного сервиса",
+      "category": "repair",
+      "status": "in_progress",
+      "priority": 51,
+      "budget": 19000,
+      "deadline_hours": 10,
+      "tags": [
+        "repair",
+        "field",
+        "резерв запчастей"
+      ],
+      "signals": [
+        "повторный выезд"
+      ],
+      "notes": [
+        "Сценарий: Срочный ремонт",
+        "Фокус: выездной сервис, планирование инженеров, запчасти, SLA",
+        "Оператор: сервис-координатор"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "время закрытия выезда и доля визитов без повторного выезда"
+      }
+    },
+    {
+      "item_id": "field-service-bridge-item-3",
+      "customer_name": "Demo User 3",
+      "title": "Запчасти не в наличии / Мост выездного сервиса",
+      "category": "inspection",
+      "status": "in_progress",
+      "priority": 59,
+      "budget": 22500,
+      "deadline_hours": 13,
+      "tags": [
+        "inspection",
+        "field",
+        "SLA"
+      ],
+      "signals": [
+        "VIP клиент"
+      ],
+      "notes": [
+        "Сценарий: Запчасти не в наличии",
+        "Фокус: выездной сервис, планирование инженеров, запчасти, SLA",
+        "Оператор: сервис-координатор"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "время закрытия выезда и доля визитов без повторного выезда"
+      }
+    },
+    {
+      "item_id": "field-service-bridge-item-4",
+      "customer_name": "Demo User 4",
+      "title": "Повторный визит / Мост выездного сервиса",
+      "category": "vip",
+      "status": "in_progress",
+      "priority": 67,
+      "budget": 26000,
+      "deadline_hours": 16,
+      "tags": [
+        "vip",
+        "field",
+        "отчет после визита"
+      ],
+      "signals": [
+        "узкое окно"
+      ],
+      "notes": [
+        "Сценарий: Повторный визит",
+        "Фокус: выездной сервис, планирование инженеров, запчасти, SLA",
+        "Оператор: сервис-координатор"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "время закрытия выезда и доля визитов без повторного выезда"
+      }
+    },
+    {
+      "item_id": "field-service-bridge-item-5",
+      "customer_name": "Demo User 5",
+      "title": "VIP клиент / Мост выездного сервиса",
+      "category": "parts",
+      "status": "in_progress",
+      "priority": 75,
+      "budget": 29500,
+      "deadline_hours": 19,
+      "tags": [
+        "parts",
+        "field",
+        "эскалации"
+      ],
+      "signals": [
+        "высокая стоимость"
+      ],
+      "notes": [
+        "Сценарий: VIP клиент",
+        "Фокус: выездной сервис, планирование инженеров, запчасти, SLA",
+        "Оператор: сервис-координатор"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "время закрытия выезда и доля визитов без повторного выезда"
+      }
+    }
+  ]
+}

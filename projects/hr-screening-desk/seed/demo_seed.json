@@ -1,0 +1,186 @@
+{
+  "actors": [
+    {
+      "actor_id": "hr-screening-desk-candidate-1",
+      "name": "Candidate Demo 1",
+      "role": "candidate",
+      "segment": "frontend",
+      "trust": 50,
+      "flags": [
+        "нет ответа кандидата"
+      ]
+    },
+    {
+      "actor_id": "hr-screening-desk-recruiter-2",
+      "name": "Recruiter Demo 2",
+      "role": "recruiter",
+      "segment": "backend",
+      "trust": 60,
+      "flags": [
+        "долгое ожидание"
+      ]
+    },
+    {
+      "actor_id": "hr-screening-desk-manager-3",
+      "name": "Manager Demo 3",
+      "role": "manager",
+      "segment": "qa",
+      "trust": 70,
+      "flags": [
+        "несовпадение вилки"
+      ]
+    },
+    {
+      "actor_id": "hr-screening-desk-owner-4",
+      "name": "Owner Demo 4",
+      "role": "owner",
+      "segment": "product",
+      "trust": 80,
+      "flags": [
+        "критичная вакансия"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "item_id": "hr-screening-desk-item-1",
+      "customer_name": "Demo User 1",
+      "title": "Новый кандидат / Стол первичного HR-скрининга",
+      "category": "frontend",
+      "status": "new",
+      "priority": 43,
+      "budget": 15500,
+      "deadline_hours": 7,
+      "tags": [
+        "frontend",
+        "hr",
+        "воронка найма"
+      ],
+      "signals": [
+        "нет ответа кандидата"
+      ],
+      "notes": [
+        "Сценарий: Новый кандидат",
+        "Фокус: подбор, первичный скрининг, сбор анкеты, планирование интервью",
+        "Оператор: рекрутер"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "скорость прохождения скрининга"
+      }
+    },
+    {
+      "item_id": "hr-screening-desk-item-2",
+      "customer_name": "Demo User 2",
+      "title": "Первичный скрининг / Стол первичного HR-скрининга",
+      "category": "backend",
+      "status": "in_progress",
+      "priority": 51,
+      "budget": 19000,
+      "deadline_hours": 10,
+      "tags": [
+        "backend",
+        "hr",
+        "скоринг соответствия"
+      ],
+      "signals": [
+        "долгое ожидание"
+      ],
+      "notes": [
+        "Сценарий: Первичный скрининг",
+        "Фокус: подбор, первичный скрининг, сбор анкеты, планирование интервью",
+        "Оператор: рекрутер"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "скорость прохождения скрининга"
+      }
+    },
+    {
+      "item_id": "hr-screening-desk-item-3",
+      "customer_name": "Demo User 3",
+      "title": "Назначение интервью / Стол первичного HR-скрининга",
+      "category": "qa",
+      "status": "in_progress",
+      "priority": 59,
+      "budget": 22500,
+      "deadline_hours": 13,
+      "tags": [
+        "qa",
+        "hr",
+        "слоты интервью"
+      ],
+      "signals": [
+        "несовпадение вилки"
+      ],
+      "notes": [
+        "Сценарий: Назначение интервью",
+        "Фокус: подбор, первичный скрининг, сбор анкеты, планирование интервью",
+        "Оператор: рекрутер"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "скорость прохождения скрининга"
+      }
+    },
+    {
+      "item_id": "hr-screening-desk-item-4",
+      "customer_name": "Demo User 4",
+      "title": "Сбор фидбека / Стол первичного HR-скрининга",
+      "category": "product",
+      "status": "in_progress",
+      "priority": 67,
+      "budget": 26000,
+      "deadline_hours": 16,
+      "tags": [
+        "product",
+        "hr",
+        "опрос менеджера"
+      ],
+      "signals": [
+        "критичная вакансия"
+      ],
+      "notes": [
+        "Сценарий: Сбор фидбека",
+        "Фокус: подбор, первичный скрининг, сбор анкеты, планирование интервью",
+        "Оператор: рекрутер"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "скорость прохождения скрининга"
+      }
+    },
+    {
+      "item_id": "hr-screening-desk-item-5",
+      "customer_name": "Demo User 5",
+      "title": "Риск отказа / Стол первичного HR-скрининга",
+      "category": "support",
+      "status": "in_progress",
+      "priority": 75,
+      "budget": 29500,
+      "deadline_hours": 19,
+      "tags": [
+        "support",
+        "hr",
+        "сигналы задержек"
+      ],
+      "signals": [
+        "разные мнения интервьюеров"
+      ],
+      "notes": [
+        "Сценарий: Риск отказа",
+        "Фокус: подбор, первичный скрининг, сбор анкеты, планирование интервью",
+        "Оператор: рекрутер"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "скорость прохождения скрининга"
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "webhook_url": "https://example.local/webhooks/returns",
+  "sync_profile": "b2b_returns"
+}

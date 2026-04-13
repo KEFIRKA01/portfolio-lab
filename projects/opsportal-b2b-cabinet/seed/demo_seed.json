@@ -1,0 +1,11 @@
+{
+  "users": [
+    {"user_id": "owner-1", "role": "owner", "name": "Ольга"},
+    {"user_id": "manager-1", "role": "manager", "name": "Никита"},
+    {"user_id": "client-1", "role": "client", "name": "Артем"}
+  ],
+  "requests": [
+    {"request_id": "req-1001", "title": "Подключение нового офиса", "status": "submitted"},
+    {"request_id": "req-1002", "title": "Загрузка комплекта документов", "status": "in_review"}
+  ]
+}

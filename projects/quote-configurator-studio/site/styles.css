@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(180deg, #f8fafc 0%, #eef2ff 100%);
+  color: #0f172a;
+}
+
+.page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px 80px;
+}
+
+.hero {
+  padding: 30px 0 10px;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: #8b5cf6;
+  font-size: 12px;
+}
+
+.lead {
+  color: #475569;
+  max-width: 700px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 22px;
+  padding: 22px;
+  margin-top: 18px;
+}
+
+.chips, .modules {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.chips button {
+  border: none;
+  border-radius: 999px;
+  padding: 10px 16px;
+  background: linear-gradient(135deg, #8b5cf6, #0ea5e9);
+  color: white;
+  cursor: pointer;
+}
+
+.modules label {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 10px 12px;
+}
+
+.summary {
+  margin: 0;
+  white-space: pre-wrap;
+  background: #f8fafc;
+  border-radius: 16px;
+  padding: 16px;
+}

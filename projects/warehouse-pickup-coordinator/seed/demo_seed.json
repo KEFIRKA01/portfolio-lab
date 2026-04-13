@@ -1,0 +1,186 @@
+{
+  "actors": [
+    {
+      "actor_id": "warehouse-pickup-coordinator-carrier-1",
+      "name": "Carrier Demo 1",
+      "role": "carrier",
+      "segment": "pickup",
+      "trust": 50,
+      "flags": [
+        "две машины в одно окно"
+      ]
+    },
+    {
+      "actor_id": "warehouse-pickup-coordinator-warehouse-2",
+      "name": "Warehouse Demo 2",
+      "role": "warehouse",
+      "segment": "carrier",
+      "trust": 60,
+      "flags": [
+        "неполные документы"
+      ]
+    },
+    {
+      "actor_id": "warehouse-pickup-coordinator-supervisor-3",
+      "name": "Supervisor Demo 3",
+      "role": "supervisor",
+      "segment": "stock-hold",
+      "trust": 70,
+      "flags": [
+        "критичный клиент"
+      ]
+    },
+    {
+      "actor_id": "warehouse-pickup-coordinator-owner-4",
+      "name": "Owner Demo 4",
+      "role": "owner",
+      "segment": "vip-client",
+      "trust": 80,
+      "flags": [
+        "малый остаток"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "item_id": "warehouse-pickup-coordinator-item-1",
+      "customer_name": "Demo User 1",
+      "title": "Новое окно / Координатор складских отгрузок",
+      "category": "pickup",
+      "status": "new",
+      "priority": 43,
+      "budget": 15500,
+      "deadline_hours": 7,
+      "tags": [
+        "pickup",
+        "dock",
+        "окна и рампы"
+      ],
+      "signals": [
+        "две машины в одно окно"
+      ],
+      "notes": [
+        "Сценарий: Новое окно",
+        "Фокус: склад, окна забора, рампы, документы перевозчика",
+        "Оператор: координатор склада"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "оборачиваемость окон погрузки"
+      }
+    },
+    {
+      "item_id": "warehouse-pickup-coordinator-item-2",
+      "customer_name": "Demo User 2",
+      "title": "Рампа занята / Координатор складских отгрузок",
+      "category": "carrier",
+      "status": "in_progress",
+      "priority": 51,
+      "budget": 19000,
+      "deadline_hours": 10,
+      "tags": [
+        "carrier",
+        "dock",
+        "документы перевозчика"
+      ],
+      "signals": [
+        "неполные документы"
+      ],
+      "notes": [
+        "Сценарий: Рампа занята",
+        "Фокус: склад, окна забора, рампы, документы перевозчика",
+        "Оператор: координатор склада"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "оборачиваемость окон погрузки"
+      }
+    },
+    {
+      "item_id": "warehouse-pickup-coordinator-item-3",
+      "customer_name": "Demo User 3",
+      "title": "Документы перевозчика / Координатор складских отгрузок",
+      "category": "stock-hold",
+      "status": "in_progress",
+      "priority": 59,
+      "budget": 22500,
+      "deadline_hours": 13,
+      "tags": [
+        "stock-hold",
+        "dock",
+        "резерв остатков"
+      ],
+      "signals": [
+        "критичный клиент"
+      ],
+      "notes": [
+        "Сценарий: Документы перевозчика",
+        "Фокус: склад, окна забора, рампы, документы перевозчика",
+        "Оператор: координатор склада"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "оборачиваемость окон погрузки"
+      }
+    },
+    {
+      "item_id": "warehouse-pickup-coordinator-item-4",
+      "customer_name": "Demo User 4",
+      "title": "VIP отгрузка / Координатор складских отгрузок",
+      "category": "vip-client",
+      "status": "in_progress",
+      "priority": 67,
+      "budget": 26000,
+      "deadline_hours": 16,
+      "tags": [
+        "vip-client",
+        "dock",
+        "приоритезация"
+      ],
+      "signals": [
+        "малый остаток"
+      ],
+      "notes": [
+        "Сценарий: VIP отгрузка",
+        "Фокус: склад, окна забора, рампы, документы перевозчика",
+        "Оператор: координатор склада"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "оборачиваемость окон погрузки"
+      }
+    },
+    {
+      "item_id": "warehouse-pickup-coordinator-item-5",
+      "customer_name": "Demo User 5",
+      "title": "Проблема с остатком / Координатор складских отгрузок",
+      "category": "crossdock",
+      "status": "in_progress",
+      "priority": 75,
+      "budget": 29500,
+      "deadline_hours": 19,
+      "tags": [
+        "crossdock",
+        "dock",
+        "операторская сводка"
+      ],
+      "signals": [
+        "опоздание перевозчика"
+      ],
+      "notes": [
+        "Сценарий: Проблема с остатком",
+        "Фокус: склад, окна забора, рампы, документы перевозчика",
+        "Оператор: координатор склада"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "оборачиваемость окон погрузки"
+      }
+    }
+  ]
+}

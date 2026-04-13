@@ -1,0 +1,186 @@
+{
+  "actors": [
+    {
+      "actor_id": "restaurant-revenue-bot-guest-1",
+      "name": "Guest Demo 1",
+      "role": "guest",
+      "segment": "dinner",
+      "trust": 50,
+      "flags": [
+        "пиковый слот"
+      ]
+    },
+    {
+      "actor_id": "restaurant-revenue-bot-host-2",
+      "name": "Host Demo 2",
+      "role": "host",
+      "segment": "birthday",
+      "trust": 60,
+      "flags": [
+        "большая группа"
+      ]
+    },
+    {
+      "actor_id": "restaurant-revenue-bot-manager-3",
+      "name": "Manager Demo 3",
+      "role": "manager",
+      "segment": "corporate",
+      "trust": 70,
+      "flags": [
+        "нет депозита"
+      ]
+    },
+    {
+      "actor_id": "restaurant-revenue-bot-owner-4",
+      "name": "Owner Demo 4",
+      "role": "owner",
+      "segment": "vip",
+      "trust": 80,
+      "flags": [
+        "VIP гость"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "item_id": "restaurant-revenue-bot-item-1",
+      "customer_name": "Demo User 1",
+      "title": "Новая бронь / Бот ресторанной выручки",
+      "category": "dinner",
+      "status": "new",
+      "priority": 43,
+      "budget": 15500,
+      "deadline_hours": 7,
+      "tags": [
+        "dinner",
+        "table",
+        "бронь и очередь ожидания"
+      ],
+      "signals": [
+        "пиковый слот"
+      ],
+      "notes": [
+        "Сценарий: Новая бронь",
+        "Фокус: ресторан, брони, очередь ожидания, депозиты, допродажи",
+        "Оператор: хостес"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "заполняемость смены и доля подтвержденных депозитов"
+      }
+    },
+    {
+      "item_id": "restaurant-revenue-bot-item-2",
+      "customer_name": "Demo User 2",
+      "title": "День рождения / Бот ресторанной выручки",
+      "category": "birthday",
+      "status": "in_progress",
+      "priority": 51,
+      "budget": 19000,
+      "deadline_hours": 10,
+      "tags": [
+        "birthday",
+        "table",
+        "депозиты"
+      ],
+      "signals": [
+        "большая группа"
+      ],
+      "notes": [
+        "Сценарий: День рождения",
+        "Фокус: ресторан, брони, очередь ожидания, депозиты, допродажи",
+        "Оператор: хостес"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "заполняемость смены и доля подтвержденных депозитов"
+      }
+    },
+    {
+      "item_id": "restaurant-revenue-bot-item-3",
+      "customer_name": "Demo User 3",
+      "title": "Корпоратив / Бот ресторанной выручки",
+      "category": "corporate",
+      "status": "in_progress",
+      "priority": 59,
+      "budget": 22500,
+      "deadline_hours": 13,
+      "tags": [
+        "corporate",
+        "table",
+        "гостевые сегменты"
+      ],
+      "signals": [
+        "нет депозита"
+      ],
+      "notes": [
+        "Сценарий: Корпоратив",
+        "Фокус: ресторан, брони, очередь ожидания, депозиты, допродажи",
+        "Оператор: хостес"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "заполняемость смены и доля подтвержденных депозитов"
+      }
+    },
+    {
+      "item_id": "restaurant-revenue-bot-item-4",
+      "customer_name": "Demo User 4",
+      "title": "Очередь ожидания / Бот ресторанной выручки",
+      "category": "vip",
+      "status": "in_progress",
+      "priority": 67,
+      "budget": 26000,
+      "deadline_hours": 16,
+      "tags": [
+        "vip",
+        "table",
+        "апсейлы"
+      ],
+      "signals": [
+        "VIP гость"
+      ],
+      "notes": [
+        "Сценарий: Очередь ожидания",
+        "Фокус: ресторан, брони, очередь ожидания, депозиты, допродажи",
+        "Оператор: хостес"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "заполняемость смены и доля подтвержденных депозитов"
+      }
+    },
+    {
+      "item_id": "restaurant-revenue-bot-item-5",
+      "customer_name": "Demo User 5",
+      "title": "Подтверждение депозита / Бот ресторанной выручки",
+      "category": "terrace",
+      "status": "in_progress",
+      "priority": 75,
+      "budget": 29500,
+      "deadline_hours": 19,
+      "tags": [
+        "terrace",
+        "table",
+        "стол и зал"
+      ],
+      "signals": [
+        "повторный перенос"
+      ],
+      "notes": [
+        "Сценарий: Подтверждение депозита",
+        "Фокус: ресторан, брони, очередь ожидания, депозиты, допродажи",
+        "Оператор: хостес"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "заполняемость смены и доля подтвержденных депозитов"
+      }
+    }
+  ]
+}

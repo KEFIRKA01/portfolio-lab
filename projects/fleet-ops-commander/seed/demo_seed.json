@@ -1,0 +1,186 @@
+{
+  "actors": [
+    {
+      "actor_id": "fleet-ops-commander-driver-1",
+      "name": "Driver Demo 1",
+      "role": "driver",
+      "segment": "delivery",
+      "trust": 50,
+      "flags": [
+        "поломка"
+      ]
+    },
+    {
+      "actor_id": "fleet-ops-commander-dispatcher-2",
+      "name": "Dispatcher Demo 2",
+      "role": "dispatcher",
+      "segment": "pickup",
+      "trust": 60,
+      "flags": [
+        "опоздание"
+      ]
+    },
+    {
+      "actor_id": "fleet-ops-commander-mechanic-3",
+      "name": "Mechanic Demo 3",
+      "role": "mechanic",
+      "segment": "maintenance",
+      "trust": 70,
+      "flags": [
+        "VIP заказ"
+      ]
+    },
+    {
+      "actor_id": "fleet-ops-commander-owner-4",
+      "name": "Owner Demo 4",
+      "role": "owner",
+      "segment": "incident",
+      "trust": 80,
+      "flags": [
+        "мало топлива"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "item_id": "fleet-ops-commander-item-1",
+      "customer_name": "Demo User 1",
+      "title": "Новый рейс / Командир транспортных операций",
+      "category": "delivery",
+      "status": "new",
+      "priority": 43,
+      "budget": 15500,
+      "deadline_hours": 7,
+      "tags": [
+        "delivery",
+        "fleet",
+        "рейсы и SLA"
+      ],
+      "signals": [
+        "поломка"
+      ],
+      "notes": [
+        "Сценарий: Новый рейс",
+        "Фокус: транспорт, диспетчеризация, инциденты, SLA, обслуживание",
+        "Оператор: диспетчер"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "доля рейсов без нарушения SLA"
+      }
+    },
+    {
+      "item_id": "fleet-ops-commander-item-2",
+      "customer_name": "Demo User 2",
+      "title": "Поломка на маршруте / Командир транспортных операций",
+      "category": "pickup",
+      "status": "in_progress",
+      "priority": 51,
+      "budget": 19000,
+      "deadline_hours": 10,
+      "tags": [
+        "pickup",
+        "fleet",
+        "эскалация инцидентов"
+      ],
+      "signals": [
+        "опоздание"
+      ],
+      "notes": [
+        "Сценарий: Поломка на маршруте",
+        "Фокус: транспорт, диспетчеризация, инциденты, SLA, обслуживание",
+        "Оператор: диспетчер"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "доля рейсов без нарушения SLA"
+      }
+    },
+    {
+      "item_id": "fleet-ops-commander-item-3",
+      "customer_name": "Demo User 3",
+      "title": "Переназначение курьера / Командир транспортных операций",
+      "category": "maintenance",
+      "status": "in_progress",
+      "priority": 59,
+      "budget": 22500,
+      "deadline_hours": 13,
+      "tags": [
+        "maintenance",
+        "fleet",
+        "переназначение"
+      ],
+      "signals": [
+        "VIP заказ"
+      ],
+      "notes": [
+        "Сценарий: Переназначение курьера",
+        "Фокус: транспорт, диспетчеризация, инциденты, SLA, обслуживание",
+        "Оператор: диспетчер"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "доля рейсов без нарушения SLA"
+      }
+    },
+    {
+      "item_id": "fleet-ops-commander-item-4",
+      "customer_name": "Demo User 4",
+      "title": "Сервисное окно / Командир транспортных операций",
+      "category": "incident",
+      "status": "in_progress",
+      "priority": 67,
+      "budget": 26000,
+      "deadline_hours": 16,
+      "tags": [
+        "incident",
+        "fleet",
+        "окна сервиса"
+      ],
+      "signals": [
+        "мало топлива"
+      ],
+      "notes": [
+        "Сценарий: Сервисное окно",
+        "Фокус: транспорт, диспетчеризация, инциденты, SLA, обслуживание",
+        "Оператор: диспетчер"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "доля рейсов без нарушения SLA"
+      }
+    },
+    {
+      "item_id": "fleet-ops-commander-item-5",
+      "customer_name": "Demo User 5",
+      "title": "VIP доставка / Командир транспортных операций",
+      "category": "vip",
+      "status": "in_progress",
+      "priority": 75,
+      "budget": 29500,
+      "deadline_hours": 19,
+      "tags": [
+        "vip",
+        "fleet",
+        "дашборд диспетчера"
+      ],
+      "signals": [
+        "частые отмены"
+      ],
+      "notes": [
+        "Сценарий: VIP доставка",
+        "Фокус: транспорт, диспетчеризация, инциденты, SLA, обслуживание",
+        "Оператор: диспетчер"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "доля рейсов без нарушения SLA"
+      }
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "actors": [
+    {
+      "actor_id": "clinic-appointment-orchestrator-patient-1",
+      "name": "Patient Demo 1",
+      "role": "patient",
+      "segment": "therapist",
+      "trust": 50,
+      "flags": [
+        "срочный симптом"
+      ]
+    },
+    {
+      "actor_id": "clinic-appointment-orchestrator-coordinator-2",
+      "name": "Coordinator Demo 2",
+      "role": "coordinator",
+      "segment": "dentist",
+      "trust": 60,
+      "flags": [
+        "нет подтверждения"
+      ]
+    },
+    {
+      "actor_id": "clinic-appointment-orchestrator-doctor-3",
+      "name": "Doctor Demo 3",
+      "role": "doctor",
+      "segment": "checkup",
+      "trust": 70,
+      "flags": [
+        "дорогая услуга"
+      ]
+    },
+    {
+      "actor_id": "clinic-appointment-orchestrator-owner-4",
+      "name": "Owner Demo 4",
+      "role": "owner",
+      "segment": "tests",
+      "trust": 80,
+      "flags": [
+        "слот сегодня"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "item_id": "clinic-appointment-orchestrator-item-1",
+      "customer_name": "Demo User 1",
+      "title": "Первичная запись / Оркестратор записей клиники",
+      "category": "therapist",
+      "status": "new",
+      "priority": 43,
+      "budget": 15500,
+      "deadline_hours": 7,
+      "tags": [
+        "therapist",
+        "care",
+        "первичный опрос"
+      ],
+      "signals": [
+        "срочный симптом"
+      ],
+      "notes": [
+        "Сценарий: Первичная запись",
+        "Фокус: медицинская запись, первичный опрос, расписание врачей, повторные визиты",
+        "Оператор: координатор клиники"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "заполняемость расписания и снижение пропущенных визитов"
+      }
+    },
+    {
+      "item_id": "clinic-appointment-orchestrator-item-2",
+      "customer_name": "Demo User 2",
+      "title": "Повторный визит / Оркестратор записей клиники",
+      "category": "dentist",
+      "status": "in_progress",
+      "priority": 51,
+      "budget": 19000,
+      "deadline_hours": 10,
+      "tags": [
+        "dentist",
+        "care",
+        "слоты и очереди"
+      ],
+      "signals": [
+        "нет подтверждения"
+      ],
+      "notes": [
+        "Сценарий: Повторный визит",
+        "Фокус: медицинская запись, первичный опрос, расписание врачей, повторные визиты",
+        "Оператор: координатор клиники"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "заполняемость расписания и снижение пропущенных визитов"
+      }
+    },
+    {
+      "item_id": "clinic-appointment-orchestrator-item-3",
+      "customer_name": "Demo User 3",
+      "title": "Онлайн-консультация / Оркестратор записей клиники",
+      "category": "checkup",
+      "status": "in_progress",
+      "priority": 59,
+      "budget": 22500,
+      "deadline_hours": 13,
+      "tags": [
+        "checkup",
+        "care",
+        "напоминания"
+      ],
+      "signals": [
+        "дорогая услуга"
+      ],
+      "notes": [
+        "Сценарий: Онлайн-консультация",
+        "Фокус: медицинская запись, первичный опрос, расписание врачей, повторные визиты",
+        "Оператор: координатор клиники"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "заполняемость расписания и снижение пропущенных визитов"
+      }
+    },
+    {
+      "item_id": "clinic-appointment-orchestrator-item-4",
+      "customer_name": "Demo User 4",
+      "title": "Срочный слот / Оркестратор записей клиники",
+      "category": "tests",
+      "status": "in_progress",
+      "priority": 67,
+      "budget": 26000,
+      "deadline_hours": 16,
+      "tags": [
+        "tests",
+        "care",
+        "маршрут пациента"
+      ],
+      "signals": [
+        "слот сегодня"
+      ],
+      "notes": [
+        "Сценарий: Срочный слот",
+        "Фокус: медицинская запись, первичный опрос, расписание врачей, повторные визиты",
+        "Оператор: координатор клиники"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "заполняемость расписания и снижение пропущенных визитов"
+      }
+    },
+    {
+      "item_id": "clinic-appointment-orchestrator-item-5",
+      "customer_name": "Demo User 5",
+      "title": "Перенос записи / Оркестратор записей клиники",
+      "category": "followup",
+      "status": "in_progress",
+      "priority": 75,
+      "budget": 29500,
+      "deadline_hours": 19,
+      "tags": [
+        "followup",
+        "care",
+        "эскалация администратора"
+      ],
+      "signals": [
+        "неполная анкета"
+      ],
+      "notes": [
+        "Сценарий: Перенос записи",
+        "Фокус: медицинская запись, первичный опрос, расписание врачей, повторные визиты",
+        "Оператор: координатор клиники"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "заполняемость расписания и снижение пропущенных визитов"
+      }
+    }
+  ]
+}

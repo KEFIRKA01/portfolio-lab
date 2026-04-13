@@ -1,0 +1,186 @@
+{
+  "actors": [
+    {
+      "actor_id": "legal-intake-companion-client-1",
+      "name": "Client Demo 1",
+      "role": "client",
+      "segment": "contract",
+      "trust": 50,
+      "flags": [
+        "судебный срок"
+      ]
+    },
+    {
+      "actor_id": "legal-intake-companion-coordinator-2",
+      "name": "Coordinator Demo 2",
+      "role": "coordinator",
+      "segment": "employment",
+      "trust": 60,
+      "flags": [
+        "высокая сумма"
+      ]
+    },
+    {
+      "actor_id": "legal-intake-companion-lawyer-3",
+      "name": "Lawyer Demo 3",
+      "role": "lawyer",
+      "segment": "ip",
+      "trust": 70,
+      "flags": [
+        "неполные документы"
+      ]
+    },
+    {
+      "actor_id": "legal-intake-companion-owner-4",
+      "name": "Owner Demo 4",
+      "role": "owner",
+      "segment": "dispute",
+      "trust": 80,
+      "flags": [
+        "конфликт сторон"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "item_id": "legal-intake-companion-item-1",
+      "customer_name": "Demo User 1",
+      "title": "Первичное обращение / Ассистент первичного юридического приёма",
+      "category": "contract",
+      "status": "new",
+      "priority": 43,
+      "budget": 15500,
+      "deadline_hours": 7,
+      "tags": [
+        "contract",
+        "legal",
+        "юридический первичный приём"
+      ],
+      "signals": [
+        "судебный срок"
+      ],
+      "notes": [
+        "Сценарий: Первичное обращение",
+        "Фокус: юридический приём, первичная сортировка обращения, чеклист документов",
+        "Оператор: координатор практики"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "скорость первичной сортировки и доля консультаций"
+      }
+    },
+    {
+      "item_id": "legal-intake-companion-item-2",
+      "customer_name": "Demo User 2",
+      "title": "Срочный спор / Ассистент первичного юридического приёма",
+      "category": "employment",
+      "status": "in_progress",
+      "priority": 51,
+      "budget": 19000,
+      "deadline_hours": 10,
+      "tags": [
+        "employment",
+        "legal",
+        "маршруты по практике"
+      ],
+      "signals": [
+        "высокая сумма"
+      ],
+      "notes": [
+        "Сценарий: Срочный спор",
+        "Фокус: юридический приём, первичная сортировка обращения, чеклист документов",
+        "Оператор: координатор практики"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "скорость первичной сортировки и доля консультаций"
+      }
+    },
+    {
+      "item_id": "legal-intake-companion-item-3",
+      "customer_name": "Demo User 3",
+      "title": "Интеллектуальная собственность / Ассистент первичного юридического приёма",
+      "category": "ip",
+      "status": "in_progress",
+      "priority": 59,
+      "budget": 22500,
+      "deadline_hours": 13,
+      "tags": [
+        "ip",
+        "legal",
+        "чеклисты"
+      ],
+      "signals": [
+        "неполные документы"
+      ],
+      "notes": [
+        "Сценарий: Интеллектуальная собственность",
+        "Фокус: юридический приём, первичная сортировка обращения, чеклист документов",
+        "Оператор: координатор практики"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "скорость первичной сортировки и доля консультаций"
+      }
+    },
+    {
+      "item_id": "legal-intake-companion-item-4",
+      "customer_name": "Demo User 4",
+      "title": "Проверка договора / Ассистент первичного юридического приёма",
+      "category": "dispute",
+      "status": "in_progress",
+      "priority": 67,
+      "budget": 26000,
+      "deadline_hours": 16,
+      "tags": [
+        "dispute",
+        "legal",
+        "срочность"
+      ],
+      "signals": [
+        "конфликт сторон"
+      ],
+      "notes": [
+        "Сценарий: Проверка договора",
+        "Фокус: юридический приём, первичная сортировка обращения, чеклист документов",
+        "Оператор: координатор практики"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "скорость первичной сортировки и доля консультаций"
+      }
+    },
+    {
+      "item_id": "legal-intake-companion-item-5",
+      "customer_name": "Demo User 5",
+      "title": "Сбор документов / Ассистент первичного юридического приёма",
+      "category": "urgent",
+      "status": "in_progress",
+      "priority": 75,
+      "budget": 29500,
+      "deadline_hours": 19,
+      "tags": [
+        "urgent",
+        "legal",
+        "дашборд координатора"
+      ],
+      "signals": [
+        "нужен созвон сегодня"
+      ],
+      "notes": [
+        "Сценарий: Сбор документов",
+        "Фокус: юридический приём, первичная сортировка обращения, чеклист документов",
+        "Оператор: координатор практики"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "скорость первичной сортировки и доля консультаций"
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "webhook_url": "https://example.local/webhooks/order",
+  "telegram_url": "https://example.local/telegram/order-alert",
+  "sync_mode": "on_checkout_processed",
+  "sync_profile": "white_label"
+}

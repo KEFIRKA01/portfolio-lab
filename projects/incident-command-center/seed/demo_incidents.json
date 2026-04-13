@@ -1,0 +1,6 @@
+{
+  "signals": [
+    {"service": "crm", "kind": "latency", "severity": "warning", "owner": "integrations"},
+    {"service": "payments", "kind": "errors", "severity": "critical", "owner": "backend"}
+  ]
+}

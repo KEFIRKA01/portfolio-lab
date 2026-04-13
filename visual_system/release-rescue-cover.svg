@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f2937"/>
+      <stop offset="50%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="#fff1f2"/>
+  <rect x="56" y="56" width="1488" height="788" rx="40" fill="url(#g)"/>
+  <text x="120" y="220" fill="#ffffff" font-size="70" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Release Rescue Kit</text>
+  <text x="120" y="290" fill="#ffe4e6" font-size="30" font-family="Segoe UI, Arial, sans-serif">Health-check, smoke-test, журнал ошибок и release checklist</text>
+  <rect x="120" y="360" width="260" height="58" rx="29" fill="#881337"/><text x="175" y="397" fill="#ffe4e6" font-size="24" font-family="Segoe UI, Arial, sans-serif">Health-check</text>
+  <rect x="400" y="360" width="250" height="58" rx="29" fill="#9f1239"/><text x="455" y="397" fill="#fff1f2" font-size="24" font-family="Segoe UI, Arial, sans-serif">Smoke test</text>
+  <rect x="670" y="360" width="230" height="58" rx="29" fill="#4b5563"/><text x="725" y="397" fill="#f3f4f6" font-size="24" font-family="Segoe UI, Arial, sans-serif">Rescue</text>
+  <text x="120" y="710" fill="#fff1f2" font-size="28" font-family="Segoe UI, Arial, sans-serif">Demo project / GitHub / Case / Architecture</text>
+</svg>

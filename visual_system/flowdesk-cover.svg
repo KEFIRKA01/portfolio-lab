@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="#f8fafc"/>
+  <rect x="56" y="56" width="1488" height="788" rx="40" fill="url(#g)"/>
+  <text x="120" y="220" fill="#ffffff" font-size="70" font-family="Segoe UI, Arial, sans-serif" font-weight="700">FlowDesk CRM Hub</text>
+  <text x="120" y="290" fill="#dbeafe" font-size="30" font-family="Segoe UI, Arial, sans-serif">Лиды, webhook, CRM, платежные callback и Telegram-уведомления</text>
+  <rect x="120" y="360" width="220" height="58" rx="29" fill="#082f49"/><text x="165" y="397" fill="#e0f2fe" font-size="24" font-family="Segoe UI, Arial, sans-serif">CRM / API</text>
+  <rect x="360" y="360" width="260" height="58" rx="29" fill="#083344"/><text x="425" y="397" fill="#ccfbf1" font-size="24" font-family="Segoe UI, Arial, sans-serif">Webhook</text>
+  <rect x="640" y="360" width="270" height="58" rx="29" fill="#164e63"/><text x="705" y="397" fill="#ecfeff" font-size="24" font-family="Segoe UI, Arial, sans-serif">Telegram</text>
+  <text x="120" y="710" fill="#ecfeff" font-size="28" font-family="Segoe UI, Arial, sans-serif">Demo project / GitHub / Case / Architecture</text>
+</svg>

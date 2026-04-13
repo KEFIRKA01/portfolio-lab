@@ -1,0 +1,186 @@
+{
+  "actors": [
+    {
+      "actor_id": "academy-cohort-assistant-student-1",
+      "name": "Student Demo 1",
+      "role": "student",
+      "segment": "onboarding",
+      "trust": 50,
+      "flags": [
+        "низкая активность"
+      ]
+    },
+    {
+      "actor_id": "academy-cohort-assistant-mentor-2",
+      "name": "Mentor Demo 2",
+      "role": "mentor",
+      "segment": "homework",
+      "trust": 60,
+      "flags": [
+        "пропуск дедлайна"
+      ]
+    },
+    {
+      "actor_id": "academy-cohort-assistant-coordinator-3",
+      "name": "Coordinator Demo 3",
+      "role": "coordinator",
+      "segment": "office-hours",
+      "trust": 70,
+      "flags": [
+        "несколько пропусков подряд"
+      ]
+    },
+    {
+      "actor_id": "academy-cohort-assistant-owner-4",
+      "name": "Owner Demo 4",
+      "role": "owner",
+      "segment": "certificate",
+      "trust": 80,
+      "flags": [
+        "жалоба на сложность"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "item_id": "academy-cohort-assistant-item-1",
+      "customer_name": "Demo User 1",
+      "title": "Онбординг / Ассистент учебного потока",
+      "category": "onboarding",
+      "status": "new",
+      "priority": 43,
+      "budget": 15500,
+      "deadline_hours": 7,
+      "tags": [
+        "onboarding",
+        "edu",
+        "группы и когорты"
+      ],
+      "signals": [
+        "низкая активность"
+      ],
+      "notes": [
+        "Сценарий: Онбординг",
+        "Фокус: образовательный поток, онбординг группы, дедлайны, часы с ментором",
+        "Оператор: координатор программы"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "удержание студентов и доля сданных дедлайнов"
+      }
+    },
+    {
+      "item_id": "academy-cohort-assistant-item-2",
+      "customer_name": "Demo User 2",
+      "title": "Напоминание о дедлайне / Ассистент учебного потока",
+      "category": "homework",
+      "status": "in_progress",
+      "priority": 51,
+      "budget": 19000,
+      "deadline_hours": 10,
+      "tags": [
+        "homework",
+        "edu",
+        "сигналы вовлеченности"
+      ],
+      "signals": [
+        "пропуск дедлайна"
+      ],
+      "notes": [
+        "Сценарий: Напоминание о дедлайне",
+        "Фокус: образовательный поток, онбординг группы, дедлайны, часы с ментором",
+        "Оператор: координатор программы"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "удержание студентов и доля сданных дедлайнов"
+      }
+    },
+    {
+      "item_id": "academy-cohort-assistant-item-3",
+      "customer_name": "Demo User 3",
+      "title": "Запись на часы с ментором / Ассистент учебного потока",
+      "category": "office-hours",
+      "status": "in_progress",
+      "priority": 59,
+      "budget": 22500,
+      "deadline_hours": 13,
+      "tags": [
+        "office-hours",
+        "edu",
+        "дедлайны"
+      ],
+      "signals": [
+        "несколько пропусков подряд"
+      ],
+      "notes": [
+        "Сценарий: Запись на часы с ментором",
+        "Фокус: образовательный поток, онбординг группы, дедлайны, часы с ментором",
+        "Оператор: координатор программы"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "удержание студентов и доля сданных дедлайнов"
+      }
+    },
+    {
+      "item_id": "academy-cohort-assistant-item-4",
+      "customer_name": "Demo User 4",
+      "title": "Риск отсева / Ассистент учебного потока",
+      "category": "certificate",
+      "status": "in_progress",
+      "priority": 67,
+      "budget": 26000,
+      "deadline_hours": 16,
+      "tags": [
+        "certificate",
+        "edu",
+        "часы с ментором"
+      ],
+      "signals": [
+        "жалоба на сложность"
+      ],
+      "notes": [
+        "Сценарий: Риск отсева",
+        "Фокус: образовательный поток, онбординг группы, дедлайны, часы с ментором",
+        "Оператор: координатор программы"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "удержание студентов и доля сданных дедлайнов"
+      }
+    },
+    {
+      "item_id": "academy-cohort-assistant-item-5",
+      "customer_name": "Demo User 5",
+      "title": "Запрос сертификата / Ассистент учебного потока",
+      "category": "support",
+      "status": "in_progress",
+      "priority": 75,
+      "budget": 29500,
+      "deadline_hours": 19,
+      "tags": [
+        "support",
+        "edu",
+        "дашборд координатора"
+      ],
+      "signals": [
+        "нет ответа на напоминание"
+      ],
+      "notes": [
+        "Сценарий: Запрос сертификата",
+        "Фокус: образовательный поток, онбординг группы, дедлайны, часы с ментором",
+        "Оператор: координатор программы"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "удержание студентов и доля сданных дедлайнов"
+      }
+    }
+  ]
+}

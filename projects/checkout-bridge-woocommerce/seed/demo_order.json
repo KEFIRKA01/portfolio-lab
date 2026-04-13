@@ -1,0 +1,8 @@
+{
+  "order_id": 5001,
+  "total": "12990.00",
+  "customer_email": "client@example.com",
+  "items": [
+    {"sku": "crm-sync-setup", "qty": 1}
+  ]
+}

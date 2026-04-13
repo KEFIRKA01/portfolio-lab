@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="#f8fafc"/>
+  <rect x="56" y="56" width="1488" height="788" rx="40" fill="url(#g)"/>
+  <text x="120" y="220" fill="#ffffff" font-size="70" font-family="Segoe UI, Arial, sans-serif" font-weight="700">OpsPortal B2B Cabinet</text>
+  <text x="120" y="290" fill="#ede9fe" font-size="30" font-family="Segoe UI, Arial, sans-serif">Роли, заявки, документы, комментарии и история действий</text>
+  <rect x="120" y="360" width="220" height="58" rx="29" fill="#312e81"/><text x="175" y="397" fill="#eef2ff" font-size="24" font-family="Segoe UI, Arial, sans-serif">React UI</text>
+  <rect x="360" y="360" width="220" height="58" rx="29" fill="#4c1d95"/><text x="425" y="397" fill="#f5f3ff" font-size="24" font-family="Segoe UI, Arial, sans-serif">Roles</text>
+  <rect x="600" y="360" width="240" height="58" rx="29" fill="#1e3a8a"/><text x="655" y="397" fill="#dbeafe" font-size="24" font-family="Segoe UI, Arial, sans-serif">B2B flow</text>
+  <text x="120" y="710" fill="#eff6ff" font-size="28" font-family="Segoe UI, Arial, sans-serif">Demo project / GitHub / Case / Architecture</text>
+</svg>

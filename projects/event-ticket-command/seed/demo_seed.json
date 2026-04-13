@@ -1,0 +1,186 @@
+{
+  "actors": [
+    {
+      "actor_id": "event-ticket-command-guest-1",
+      "name": "Guest Demo 1",
+      "role": "guest",
+      "segment": "conference",
+      "trust": 50,
+      "flags": [
+        "последние места"
+      ]
+    },
+    {
+      "actor_id": "event-ticket-command-operator-2",
+      "name": "Operator Demo 2",
+      "role": "operator",
+      "segment": "concert",
+      "trust": 60,
+      "flags": [
+        "групповой заказ"
+      ]
+    },
+    {
+      "actor_id": "event-ticket-command-scanner-3",
+      "name": "Scanner Demo 3",
+      "role": "scanner",
+      "segment": "meetup",
+      "trust": 70,
+      "flags": [
+        "возврат"
+      ]
+    },
+    {
+      "actor_id": "event-ticket-command-owner-4",
+      "name": "Owner Demo 4",
+      "role": "owner",
+      "segment": "vip",
+      "trust": 80,
+      "flags": [
+        "повышение класса"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "item_id": "event-ticket-command-item-1",
+      "customer_name": "Demo User 1",
+      "title": "Покупка билета / Командный центр продажи билетов",
+      "category": "conference",
+      "status": "new",
+      "priority": 43,
+      "budget": 15500,
+      "deadline_hours": 7,
+      "tags": [
+        "conference",
+        "event",
+        "удержание мест"
+      ],
+      "signals": [
+        "последние места"
+      ],
+      "notes": [
+        "Сценарий: Покупка билета",
+        "Фокус: билеты, удержание мест, очередь ожидания, QR-доступ",
+        "Оператор: координатор события"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "заполняемость события и конвертация очереди ожидания"
+      }
+    },
+    {
+      "item_id": "event-ticket-command-item-2",
+      "customer_name": "Demo User 2",
+      "title": "Повышение до VIP / Командный центр продажи билетов",
+      "category": "concert",
+      "status": "in_progress",
+      "priority": 51,
+      "budget": 19000,
+      "deadline_hours": 10,
+      "tags": [
+        "concert",
+        "event",
+        "очередь ожидания"
+      ],
+      "signals": [
+        "групповой заказ"
+      ],
+      "notes": [
+        "Сценарий: Повышение до VIP",
+        "Фокус: билеты, удержание мест, очередь ожидания, QR-доступ",
+        "Оператор: координатор события"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "заполняемость события и конвертация очереди ожидания"
+      }
+    },
+    {
+      "item_id": "event-ticket-command-item-3",
+      "customer_name": "Demo User 3",
+      "title": "Очередь ожидания / Командный центр продажи билетов",
+      "category": "meetup",
+      "status": "in_progress",
+      "priority": 59,
+      "budget": 22500,
+      "deadline_hours": 13,
+      "tags": [
+        "meetup",
+        "event",
+        "пакеты и апсейлы"
+      ],
+      "signals": [
+        "возврат"
+      ],
+      "notes": [
+        "Сценарий: Очередь ожидания",
+        "Фокус: билеты, удержание мест, очередь ожидания, QR-доступ",
+        "Оператор: координатор события"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "заполняемость события и конвертация очереди ожидания"
+      }
+    },
+    {
+      "item_id": "event-ticket-command-item-4",
+      "customer_name": "Demo User 4",
+      "title": "Групповой заказ / Командный центр продажи билетов",
+      "category": "vip",
+      "status": "in_progress",
+      "priority": 67,
+      "budget": 26000,
+      "deadline_hours": 16,
+      "tags": [
+        "vip",
+        "event",
+        "статусы билетов"
+      ],
+      "signals": [
+        "повышение класса"
+      ],
+      "notes": [
+        "Сценарий: Групповой заказ",
+        "Фокус: билеты, удержание мест, очередь ожидания, QR-доступ",
+        "Оператор: координатор события"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "заполняемость события и конвертация очереди ожидания"
+      }
+    },
+    {
+      "item_id": "event-ticket-command-item-5",
+      "customer_name": "Demo User 5",
+      "title": "Проверка доступа / Командный центр продажи билетов",
+      "category": "stream",
+      "status": "in_progress",
+      "priority": 75,
+      "budget": 29500,
+      "deadline_hours": 19,
+      "tags": [
+        "stream",
+        "event",
+        "сценарий проверки доступа"
+      ],
+      "signals": [
+        "массовый вход"
+      ],
+      "notes": [
+        "Сценарий: Проверка доступа",
+        "Фокус: билеты, удержание мест, очередь ожидания, QR-доступ",
+        "Оператор: координатор события"
+      ],
+      "metadata": {
+        "channel": "telegram",
+        "source": "portfolio_demo",
+        "metric": "заполняемость события и конвертация очереди ожидания"
+      }
+    }
+  ]
+}
