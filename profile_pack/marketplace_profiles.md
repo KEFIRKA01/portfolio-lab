@@ -1,4 +1,4 @@
-# Marketplace Profiles
+﻿# Marketplace Profiles
 
 ## Общий master-profile
 

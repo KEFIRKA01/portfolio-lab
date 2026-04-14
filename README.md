@@ -9,6 +9,26 @@
 - подтверждает сильные стороны кодом, архитектурой, сценариями и визуальной упаковкой;
 - даёт готовую базу для профилей на `Kwork`, `FL.ru`, `Freelance.ru`, `Workspace`, `Weblancer`, `Profi.ru`, `Яндекс Исполнители`.
 
+## Быстрый вход
+
+- 10 флагманских проектов, которые лучше всего показывают сильные стороны: см. раздел ниже.
+- Готовые тексты профилей и порядок публикации по биржам: `C:\Users\KIFER\Desktop\ТГ фриланс бот\portfolio_lab\profile_pack\marketplace_profiles.md`
+- Короткая схема, какие проекты куда ставить: `C:\Users\KIFER\Desktop\ТГ фриланс бот\portfolio_lab\profile_pack\marketplace_publish_order.md`
+- Полный каталог коммерческих контекстов: `C:\Users\KIFER\Desktop\ТГ фриланс бот\portfolio_lab\commercial_case_catalog.md`
+
+## 10 флагманских проектов
+
+1. `projects/flowdesk-crm-hub` — CRM/лиды, webhook, Telegram, payment-callback.
+2. `projects/opsportal-b2b-cabinet` — B2B-кабинет с ролями, документами, аудитом.
+3. `projects/checkout-bridge-woocommerce` — WooCommerce bridge для интеграций и уведомлений.
+4. `projects/release-rescue-kit` — стабилизация релизов и rescue-инструменты.
+5. `projects/telegram-shop-orbit` — Telegram-магазин с корзиной и операторской очередью.
+6. `projects/telegram-login-guardian` — подтверждение входов, риск-сигналы, security workflow.
+7. `projects/partner-onboarding-bot` — онбординг партнёров, документы, комплаенс.
+8. `projects/eventmesh-booking-router` — маршрутизация бронирований между провайдерами.
+9. `projects/vendorhub-compliance-portal` — комплаенс/проверки поставщиков.
+10. `projects/field-service-bridge` — выездной сервис, SLA, повторные визиты.
+
 ## Что внутри
 
 - [benchmark/marketplace_benchmark_2026-04.md](C:/Users/KIFER/Desktop/ТГ%20фриланс%20бот/portfolio_lab/benchmark/marketplace_benchmark_2026-04.md)
@@ -16,7 +36,9 @@
 - [unusual_scenarios_map.md](C:/Users/KIFER/Desktop/ТГ%20фриланс%20бот/portfolio_lab/unusual_scenarios_map.md)
 - [publication_checklist.md](C:/Users/KIFER/Desktop/ТГ%20фриланс%20бот/portfolio_lab/publication_checklist.md)
 - [commercial_case_catalog.md](./commercial_case_catalog.md)
-- [profile_pack/README.md](C:/Users/KIFER/Desktop/ТГ%20фриланс%20бот/portfolio_lab/profile_pack/README.md)
+- `C:\Users\KIFER\Desktop\ТГ фриланс бот\portfolio_lab\profile_pack\README.md`
+- `C:\Users\KIFER\Desktop\ТГ фриланс бот\portfolio_lab\profile_pack\marketplace_profiles.md`
+- `C:\Users\KIFER\Desktop\ТГ фриланс бот\portfolio_lab\profile_pack\marketplace_publish_order.md`
 - [visual_system/style_guide.md](C:/Users/KIFER/Desktop/ТГ%20фриланс%20бот/portfolio_lab/visual_system/style_guide.md)
 - `projects/` — уже 27 готовых витринных проектов
 

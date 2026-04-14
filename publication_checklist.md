@@ -1,4 +1,4 @@
-# Publication Checklist
+﻿# Publication Checklist
 
 ## Порядок публикации
 
