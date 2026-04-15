@@ -1,4 +1,4 @@
-const projectTypeButtons = document.querySelectorAll("[data-type]");
+﻿const projectTypeButtons = document.querySelectorAll("[data-type]");
 const moduleCheckboxes = document.querySelectorAll(".modules input[type=checkbox]");
 const complexityInput = document.querySelector("#complexity");
 const complexityValue = document.querySelector("#complexity-value");

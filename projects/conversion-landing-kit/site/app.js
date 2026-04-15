@@ -1,4 +1,4 @@
-const quizResult = document.querySelector("#quiz-result");
+﻿const quizResult = document.querySelector("#quiz-result");
 const submitState = document.querySelector("#submit-state");
 const quizButtons = document.querySelectorAll("[data-answer]");
 const form = document.querySelector("#lead-form");
@@ -24,7 +24,7 @@ const recommendations = {
     estimate: "от 70 000 ₽",
   },
   telegram: {
-    copy: "Лучше собирать форму так, чтобы менеджер сразу получал понятное уведомление в Telegram.",
+    copy: "Лучше собрать форму так, чтобы менеджер сразу получал понятное уведомление в Telegram.",
     nextStep: "Собрать post-submit сценарий и уведомления.",
     packageName: "Telegram Assist",
     estimate: "от 60 000 ₽",
